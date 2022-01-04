@@ -28,6 +28,8 @@ public class SeleniumSessionEight {
 		driver.navigate().back();
 		// finally quit the browser 
 		driver.quit();
+		//if we are using driver.quit after performing all the action then we need not to use
+		//driver.navvigate.back();
 		
 	}
 
